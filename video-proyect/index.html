@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./syle.css" rel="stylesheet" type="text/css">
+    <link href="./responsive.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b90e9e4354.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icon/reproducir.ico">
+    <title>VIDEO APP</title>
+    <header>
+        <div class="cont-nav">
+        <nav class="nav-brand">
+            <ul class="nav-ul">
+                <p class="icon-nav"><i class="far fa-pause-circle"></i></p>
+           </ul>
+        </nav>
+        </div>
+    </header>
+</head>
+<body>
+    <h1>Reproductor App</h1>
+    <hr>
+    <div class="cont-video">
+        <div class="cont-multimedia">
+            <button id="reproducir"><i class="far fa-pause-circle"></i></button>
+            <video id="video" width="420" >
+                 <source id="videoSrc" src="../video/video.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="cont-text">
+                <h2 class="title-video">"Todo el mundo deberia saber programar". Testimonios de personas conocidas en el ambito del software.</h2>
+                <p class="parrafo">Lorem ipsum dolor sit, amet consecnde enim delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga possimus ipsam omnis quo quis sed eveniet minus hic natus nulla. Similique laudantium vel cum provident! Voluptas alias quis in unde!</p>
+        </div>
+    </div>
+
+
+    <div class="cont-modal" id="contModal">
+        <button class="btn-modal"><i class="fas fa-times"></i></button>
+    <div class="modal"id="modal">
+        <p></p>
+    </div>
+    </div>
+
+
+    <script src="script.js"></script> 
+</body>
+</html>

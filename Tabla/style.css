@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+}
+.table-none{
+    display: none;
+}
+.cont-table {
+    height: 42rem;
+    background: url("../img/bg-relativiti.jpg");
+    background-size: cover;
+}
+.table{
+    animation-duration: 3s;
+    transition: all 0.7s ease-out;
+    animation-name: animation;
+    text-align: center;
+    padding: 10% 15px 0px 15px;
+    height:100%;
+    font-size: 25px;
+    width: 100%;
+    background: #0f0c29d5;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to right, #1c1c35b4, #302c63ab, #0d0a25c0); 
+}
+.table tr{
+    width:100%;
+    background:#e4dddd;
+    backdrop-filter: blur(5px);
+}
+.table table{
+    margin-top:1rem ;
+}
+.table td { 
+    padding: 5px 5px ;
+    border-radius: 5px;
+    width: 100%;
+}
+.title-colum td{
+    color: #fff;
+    background: linear-gradient(to bottom, #734b6d, #42275a);
+    backdrop-filter: blur(5px);
+}
+.table-color td{
+    color: #fff;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(to bottom, #434343, #000000);
+}
+
+@keyframes animation{
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
